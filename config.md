@@ -1,4 +1,4 @@
-terraform/
+***terraform/
 │── main.tf           # provider + backend (state storage)
 │── variables.tf      # all input variables
 │── vpc.tf            # networking (VPC, subnets, IGW, NAT, routes)
@@ -10,7 +10,7 @@ terraform/
 │── ecs.tf            # ECS cluster (optional for compute)
 │── outputs.tf        # outputs (endpoints, IDs, etc.)
 │── terraform.tfvars  # your values (region, project name, etc.)
-
+***
 
 ***Main.tf***
 ```sh
